@@ -9,7 +9,8 @@ body {
     width: 95%;
     max-width: 1500px;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 10px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
 }
 
 .profile-header{
@@ -33,6 +34,7 @@ body {
 }
 
 nav ul {
+    margin: auto;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -53,4 +55,73 @@ nav ul li a {
 
 nav ul li a:hover{
     color: rgb(255, 0, 0);
+}
+
+section {
+    padding: auto;
+    padding-top: 30px;
+}
+
+.container h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+#about p{
+    text-align: justify;
+    margin: 0px 30px 30px;
+    margin-bottom: 15px;
+}
+
+#experience{
+    display: flex;
+}
+
+.ji-experience{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.ji-experience2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: calc(100% - 230px);
+}
+
+.judul-experience{
+    width: 200px;
+    font-size: 20px;
+    padding-left: 30px;
+    display: flex;
+    font-weight: 700;
+}
+
+.nama-experience{
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+}
+
+.flex-taun{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.taun{
+    justify-content: right;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 30%;
+    text-align: right;
+}
+
+
+.isi-experience{
+    padding-right: 30px;
 }
