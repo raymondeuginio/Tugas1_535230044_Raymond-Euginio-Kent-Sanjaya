@@ -2,10 +2,11 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #000000;
+    background-color:#faf5f0;
 }
 
 .container {
-    border: black 5px solid;
+    border: #8d745b 5px solid;
     width: 95%;
     max-width: 1500px;
     margin: auto;
@@ -20,7 +21,7 @@ body {
 
 .profile-header img{
     width: 180px;
-    border: black 5px solid;
+    border: #8d745b 5px solid;
     margin: auto;
     padding-bottom: 0%;
 }
