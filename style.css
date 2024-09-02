@@ -125,3 +125,65 @@ section {
 .isi-experience{
     padding-right: 30px;
 }
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.skill-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill-logo i.fab.fa-html5 {
+    font-size: 50px;
+    color: #E34F26;
+}
+
+.skill-logo i.fab.fa-css3-alt {
+    font-size: 50px;
+    color: #1572B6;
+}
+
+.skill-logo i.fab.fa-js {
+    font-size: 50px;
+    color: #F7DF1E;
+}
+
+.skill-logo i.fab.fa-python {
+    font-size: 50px;
+    color: #3776AB;
+}
+
+.skill-logo i.fas.fa-file-word {
+    font-size: 50px;
+    color: #2B579A;
+}
+
+.skill-logo i.fas.fa-file-excel {
+    font-size: 50px;
+    color: #217346;
+}
+
+.skill-logo i.fas.fa-file-powerpoint {
+    font-size: 50px;
+    color: #D24726;
+}
+
+.skill-logo i.fas.fa-database {
+    font-size: 50px;
+    color: #FF5733;
+}
+
+.skill-logo p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
